@@ -13,7 +13,7 @@
 - Docker provides direct localhost access with minimal response time -- ideal for quick, standalone application runs and testing on a single machine.
 - Minikube requires service exposure (NodePort), and access is through its internal VM IP.
 - Minikube introduces slightly higher latency due to its internal abstraction and networking layers -- this trade-off comes with the benefit of simulating a scalable, production-like Kubernetes environment.
-- Command line tools like are good for timing and analysis of performance metrics.
+- Command line tools are good for timing and analysis of performance metrics.
 
 ## 🧪 Commands / Configs
 
