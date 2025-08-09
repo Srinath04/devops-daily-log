@@ -16,9 +16,9 @@
 - Command line tools are good for timing and analysis of performance metrics.
 
 ## 🧪 Commands / Configs
+kubectl expose deployment web-app-game --type=NodePort --port=80 --target-port=5000
 
 # Test Performance
 curl -o /dev/null -s -w "DNS Lookup: %{time_namelookup}s\nConnect: %{time_connect}s\nTTFB: %{time_starttransfer}s\nTotal Time: %{time_total}s\n" http://localhost:80
 
 time curl -s http://localhost:80 > /dev/null
-
