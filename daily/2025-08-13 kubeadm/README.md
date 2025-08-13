@@ -15,7 +15,7 @@
 ```	TCP 6443 (API server)
 	TCP/UDP 6783, UDP 6784 (Weave Net)
 	NodePort range TCP 30000–32767
-	SSH TCP 22```
+	SSH TCP 22 ```
 
 - Using Elastic Network Interfaces (ENI) or fixed private IPs prevents cluster breakage after EC2 stop/start
 
