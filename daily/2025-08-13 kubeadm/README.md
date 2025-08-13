@@ -12,10 +12,10 @@
 
 ## 🔍 Key Learnings
 - Security Groups must allow inter-node communication for Kubernetes control plane and CNI ports:
-```	TCP 6443 (API server)
-	TCP/UDP 6783, UDP 6784 (Weave Net)
-	NodePort range TCP 30000–32767
-	SSH TCP 22 ```
+  TCP 6443 (API server)
+  TCP/UDP 6783, UDP 6784 (Weave Net)
+  NodePort range TCP 30000–32767
+  SSH TCP 22
 
 - Using Elastic Network Interfaces (ENI) or fixed private IPs prevents cluster breakage after EC2 stop/start
 
@@ -26,7 +26,7 @@
 - Configure $HOME/.kube/config on the master for kubectl access
 
 ## 🖥 ️ Commands / Configs
-```kubeadm token create --print-join-command``
+``kubeadm token create --print-join-command``
 
 ### On all nodes (prereqs)
 ```
@@ -47,8 +47,8 @@ sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config
 sudo chown $(id -u):$(id -g) $HOME/.kube/config
 ```
 ### Workers (join cluster)
-```sudo kubeadm join <MASTER_PRIVATE_IP>:6443 --token <TOKEN> \
-    --discovery-token-ca-cert-hash sha256:<HASH>```
+``sudo kubeadm join <MASTER_PRIVATE_IP>:6443 --token <TOKEN> \
+    --discovery-token-ca-cert-hash sha256:<HASH>``
 ### Verify
 ```
 kubectl get nodes -o wide
@@ -70,7 +70,7 @@ curl http://nginx:80
 exit
 ```
 ### Test from outside cluster (browser or local terminal)
-```curl http://<ANY_OF_THREE_NODE_PUBLIC_IP>:32341```
+``curl http://<ANY_OF_THREE_NODE_PUBLIC_IP>:32341``
 
 ### Ports Overview
 ```
