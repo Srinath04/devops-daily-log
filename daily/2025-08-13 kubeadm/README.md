@@ -1,15 +1,15 @@
 
 ## 🔧 Activity
-1 Created a Kubernetes cluster in AWS using kubeadm with:
+1. Created a Kubernetes cluster in AWS using kubeadm with:
 	1 master node
 	2 worker nodes
-2 Configured all EC2 instances (Ubuntu 20.04) with:
-3 containerd runtime
-4 kubeadm, kubelet, kubectl installed
-5 Initialized the cluster on the master node
-6 Installed Weave Net as the CNI plugin
-7 Joined both workers to the cluster
-8 Verified node and pod status
+2. Configured all EC2 instances (Ubuntu 20.04) with:
+3. containerd runtime
+4. kubeadm, kubelet, kubectl installed
+5. Initialized the cluster on the master node
+6. Installed Weave Net as the CNI plugin
+7. Joined both workers to the cluster
+8. Verified node and pod status
 
 ## 🔍 Key Learnings
 - Security Groups must allow inter-node communication for Kubernetes control plane and CNI ports:
