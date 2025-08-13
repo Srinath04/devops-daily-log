@@ -3,20 +3,19 @@
 1. Created a Kubernetes cluster in AWS using kubeadm with:
 	1 master node
 	2 worker nodes
-2. Configured all EC2 instances (Ubuntu 20.04) with:
-3. containerd runtime
-4. kubeadm, kubelet, kubectl installed
-5. Initialized the cluster on the master node
-6. Installed Weave Net as the CNI plugin
-7. Joined both workers to the cluster
-8. Verified node and pod status
+2. Configured all EC2 instances (Ubuntu 20.04) with: containerd runtime
+3. kubeadm, kubelet, kubectl installed
+4. Initialized the cluster on the master node
+5. Installed Weave Net as the CNI plugin
+6. Joined both workers to the cluster
+7. Verified node and pod status
 
 ## 🔍 Key Learnings
 - Security Groups must allow inter-node communication for Kubernetes control plane and CNI ports:
-	TCP 6443 (API server)
+```	TCP 6443 (API server)
 	TCP/UDP 6783, UDP 6784 (Weave Net)
 	NodePort range TCP 30000–32767
-	SSH TCP 22
+	SSH TCP 22```
 
 - Using Elastic Network Interfaces (ENI) or fixed private IPs prevents cluster breakage after EC2 stop/start
 
@@ -40,7 +39,7 @@ sudo apt update
 sudo apt install -y kubelet kubeadm kubectl containerd
 sudo systemctl enable kubelet
 ```
-### On Control plane 
+### On Controlplane 
 ```
 sudo kubeadm init --pod-network-cidr=10.244.0.0/16
 mkdir -p $HOME/.kube
