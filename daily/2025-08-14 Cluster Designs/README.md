@@ -12,27 +12,27 @@ etcd, the distributed key-value store is at the heart of the control plane and
 requires quorum (majority agreement) to function correctly. 
 Example: In a 3-node etcd cluster, quorum is 2.
 
-###etcd Deployment Options
+### etcd Deployment Options
 - Stacked topology: etcd runs with the control plane nodes. Simpler to deploy but less resilient.
 - External topology: etcd runs on dedicated nodes. More resilient but needs additional infra.
 
 Stacked topology is simpler but ties etcd health to the control plane node health. External topology provides stronger isolation and reliability but requires extra infrastructure.
 
-###Provisioning Approaches
+### Provisioning Approaches
 
-####Cloud Managed Service:
+#### Cloud Managed Service:
 Key Players: Amazon EKS, Google GKE, Azure AKS.
 Control plane and etcd are fully managed by the provider.
 
 Users only manage worker nodes and workloads.
 High availability and quorum are handled automatically.
 
-####Turnkey Solutions:
+#### Turnkey Solutions:
 - Tools like kOps, Rancher RKE, or Kubeadm automation scripts.
 - Provide cluster bootstrapping with HA options.
 - Require user management of both control planes and etcd, though tooling simplifies setup.
 
-###💰 Cost-Saving Points
+### 💰Cost-Saving Points
 - Use stacked topology for non-critical or dev/test clusters to avoid extra nodes.
 - For production, managed services (EKS/GKE/AKS) often reduce TCO by offloading ops overhead and avoiding downtime costs.
 - Right sizing worker nodes (autoscaling, spot instances in cloud) provides major savings while keeping performance.
