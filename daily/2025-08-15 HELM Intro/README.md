@@ -26,7 +26,7 @@
 - kubectl configured and access rights set up.
 - Helm client installed on the local machine.
 
-### Git add -A refresher
+### Git add refresher
 
 - git add -A stages all changes in the working directory (new, modified, deleted files).
 - Useful for ensuring a complete snapshot of work before committing.
