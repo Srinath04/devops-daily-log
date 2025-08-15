@@ -16,17 +16,13 @@ Example: In a 3-node etcd cluster, quorum is 2.
 - Stacked topology: etcd runs with the control plane nodes. Simpler to deploy but less resilient.
 - External topology: etcd runs on dedicated nodes. More resilient but needs additional infra.
 
-Stacked topology is simpler but ties etcd health to the control plane node health. External topology provides stronger isolation and reliability but requires extra infrastructure.
-
 ### Provisioning Approaches
-
 #### Cloud Managed Service:
 Key Players: Amazon EKS, Google GKE, Azure AKS.
 Control plane and etcd are fully managed by the provider.
 
 Users only manage worker nodes and workloads.
 High availability and quorum are handled automatically.
-
 #### Turnkey Solutions:
 - Tools like kOps, Rancher RKE, or Kubeadm automation scripts.
 - Provide cluster bootstrapping with HA options.
