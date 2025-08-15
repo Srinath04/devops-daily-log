@@ -20,7 +20,7 @@
 - Repositories: Storage locations for charts (e.g., ArtifactHub).
 - Releases: An instance of a chart deployed to a Kubernetes cluster.
 
-###Prerequisites for Using Helm
+#### Prerequisites for Using Helm
 
 - A working Kubernetes cluster.
 - kubectl configured and access rights set up.
