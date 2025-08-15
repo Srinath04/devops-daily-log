@@ -4,7 +4,6 @@
 2. Also revised Git basics with the use of git add -A.
 ## 🔍 Key Learnings
 
-#### Helm Basics
 - Helm simplifies Kubernetes application deployment by packaging manifests into reusable charts.
 - Provides a consistent way to install, upgrade, and manage applications across environments.
 
@@ -12,7 +11,7 @@
 
 - Removed Tiller (server-side component), making Helm more secure and easier to use as kubernetes functionalities grows
 - Works directly with Kubernetes API and RBAC.
-- Better release management, improved security, and simplified upgrade/rollback, 3-Way Strategic Merge Patch
+- Better release management, improved security, and simplified upgrade/rollback, 3-way strategic merge patch
 - Strong ecosystem of community-maintained charts, enabling rapid deployments.
 
 #### Helm Components
