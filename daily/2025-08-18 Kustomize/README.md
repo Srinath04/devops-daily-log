@@ -36,12 +36,12 @@
 ### Real world Usecase
 
 Enterprise setup:
-  Base directory defines core service (app + DB + secrets).
-  Overlays:
-   Dev: 1 replica, debug logging, local DB endpoint.
-   Staging: 2 replicas, staging DB, realistic config.
-   Prod: 5 replicas, autoscaling enabled, prod DB.
-  Updates: Change image version in Base, and it automatically flows to all overlays. Only overlay-specific differences remain unique.
+  Base directory defines core service (app + DB + secrets).  
+  Overlays:  
+   Dev: 1 replica, debug logging, local DB endpoint.  
+   Staging: 2 replicas, staging DB, realistic config.  
+   Prod: 5 replicas, autoscaling enabled, prod DB.  
+  Updates: Change image version in Base, and it automatically flows to all overlays. Only overlay-specific differences remain unique.  
 
 This ensures consistency across environments and eliminates “works in staging but not in prod” problems.
 
