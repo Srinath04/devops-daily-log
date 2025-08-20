@@ -14,7 +14,7 @@
 
 ### Application Connectivity
 - DB_HOST in a Deployment must equal the Service name (DNS within cluster).
-- Mismatches (mysql vs mysql-service) cause real-world downtime — this kind of detail is critical in production troubleshooting.
+- Mismatche in service names (like mysql vs mysql-service) cause connectivity failure and downtime
 - Services are immutable in name → renaming requires delete/recreate and redeployment updates.
-- Networking misalignments in Kubernetes usually surface as app connection failures.
-- Knowing how DNS, Services, and environment variables tie together shows skill beyond YAML writing — it shows capability to debug distributed systems.
+- Networking mismatch in configs with kubernetes usually surface as app connection failures.
+- How DNS, Services, and environment variables tie and communicate with eachother
