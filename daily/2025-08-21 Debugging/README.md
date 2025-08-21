@@ -22,7 +22,7 @@ journalctl -u kubelet -f
 ```
 
 ### Kube-proxy Configuration
-Default config path: `` /var/lib/kube-proxy/config.conf ``
+Default config path: ``/var/lib/kube-proxy/config.conf ``
 
 - Ensure correct API group in config (not plain v1, but kubeproxy.config.k8s.io/v1alpha1 or newer).
 
@@ -41,8 +41,8 @@ Inspect logs:
 
 ### CNI/Networking Issues
 - Pods stuck in ContainerCreating → usually CNI missin or misconfigured.
-`` kubectl get pods -n kube-system``
-- If weave/flannel/calico pods not running →First to ensure IIPs allocated to workloads.
+``kubectl get pods -n kube-system``
+- If weave/flannel/calico pods not running →First to ensure IPs allocated to workloads.
 
 ### Services & Endpoints
 Service selectors must match pod labels:
