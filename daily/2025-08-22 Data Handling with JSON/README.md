@@ -9,7 +9,7 @@
 
 - Negative indexing working:  
 '$[-5:]'.events → correctly fetches the last 5 elements,
-ranges move left-to-right negative slicing is not symmetrical like in Python.
+negative slicing works, but ranges must move left to right, reverse slices like [-1:-5] return empty (not reversed)”.
 - Knowing when to treat JSON as an array vs a dictionary helps distinguish between ordered events (like log entries) and unordered attributes (like pod metadata).  
 
 ### Valuable in debugging cloud native systems and in pipeline processing.
