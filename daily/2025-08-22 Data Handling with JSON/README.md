@@ -39,7 +39,7 @@ This lets us quickly fetch the most recent readings for anomaly detection.
 - Root Field Counting: Validate payloads in CI/CD to catch malformed inputs early.
 - CLI Manipulation: Speed up on-call debugging without waiting for dashboards.
 
-## Cost-Saving Angle
+## Cost Saving Angle
 - Avoids spinning up dashboards or heavy services just for immediate data inspection.
 - Minimizes engineering hours during incidents by using fast, local CLI debugging.
 - Reduces dependency on third-party JSON parsing/visualization tools.
