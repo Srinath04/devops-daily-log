@@ -33,7 +33,7 @@ ETCDCTL_API=3 etcdctl snapshot save /tmp/etcd-snapshot.db \
   --cert=/etc/kubernetes/pki/etcd/server.crt \
   --key=/etc/kubernetes/pki/etcd/server.key
 ```
-# Verify snapshot
+#### Verify snapshot
 ``` ETCDCTL_API=3 etcdctl snapshot status /tmp/etcd-snapshot.db ```
 
 ### JSON Querying Example
