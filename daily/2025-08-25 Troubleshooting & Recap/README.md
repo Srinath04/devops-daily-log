@@ -48,9 +48,9 @@ spec:
 ```
 kubectl describe pod <pod-name>
 kubectl logs <pod-name> -c <init-container>
-``
+```
 Key Learning: Crash in init container blocks Pod startup.
-Issue: start command is incorrect
+Issue: container start command is incorrect
 
 
 ### Kubeconfig Management
