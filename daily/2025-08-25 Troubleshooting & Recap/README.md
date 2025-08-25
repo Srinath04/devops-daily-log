@@ -45,11 +45,12 @@ spec:
 - Observation: Init containers run sequentially before app containers.
 
 #### Debugging Steps:
-
+```
 kubectl describe pod <pod-name>
 kubectl logs <pod-name> -c <init-container>
-
-Key Learning: Crash in init container blocks Pod startup. Most common issues:
+``
+Key Learning: Crash in init container blocks Pod startup.
+Issue: start command is incorrect
 
 
 ### Kubeconfig Management
