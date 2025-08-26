@@ -93,7 +93,7 @@ spec:
 
 ```
 
-##3 Real-World Use Case
+### Real-World Use Case
 - Shared Volumes: Log shipping sidecars, where one container writes app logs and another container forwards them to ELK/CloudWatch.
 
 - HPA with Stabilization: Online shopping app during flash sales → avoids rapid scale in/out by keeping enough pods alive during short demand spikes.
