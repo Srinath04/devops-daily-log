@@ -33,7 +33,6 @@ my-quota     2025-08-27T12:10:00Z
 ## 💡 Key Learnings
 
 * **DNS in Kubernetes:** DNS is fully managed by CoreDNS, and pods resolve services using `<service>.<namespace>.svc.cluster.local`. Testing with BusyBox ensures DNS propagation is verified at pod-level.
-* **Logging Redirection:** `>` replaces file contents (suitable for single-run tasks) while `>>` appends (suitable for long-running troubleshooting logs). This small Linux concept translates directly into better debugging workflows in Kubernetes.
 * **Replica Behavior:** Multiple pods are often expected when using Deployments, where the `replicas` field defaults to `1` but can scale automatically via HPA or manually. A restart policy can also cause multiple pod instances if older ones are terminating.
 * **Quota Management:** The `Hard` value in a quota is the strict upper bound, while `Used` grows dynamically as pods request resources. This ensures predictable scheduling and avoids node overcommitment.
 * **Hardware Abstraction:** Kubernetes normalizes compute units as `millicores` (mCPU). A dual-core laptop with 2000m CPU is roughly comparable to a small cloud VM, while higher-end CPUs (Ryzen/i9) map to larger instance types. This understanding aids in cost-to-performance comparison.
