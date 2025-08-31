@@ -25,11 +25,15 @@
   - Verified version compatibility with apt show kubelet | grep Version before install/upgrade.
   - Common fixes: restarting kubelet, ensuring kubelet version matches kubeadm, checking node config, and resolving certificate or CNI plugin errors.
 
+5. Debugged ingress bad gateway error during creation.
+
+6. Verified PV and PVC matching rules (spec, namespace scope, access modes, storage class).
+
 ### Commands & References from Today’s Work:
 ```
 journalctl -u kubelet -f → live logs for kubelet.
 
-systemctl status kubelet →UUnit kubelet.service could not be found.
+systemctl status kubelet → Unit kubelet.service could not be found.
 
 apt show kubelet | grep Version → check installed kubelet version
 
@@ -38,10 +42,4 @@ crictl ps -a →check running and existed container from system pods
 kubectl exec dnspod-ckapg-svcn -- curl testservice-ckapg-svcn
 
 kubectl create secret generic db-secret-test -n playground --from-literal=DB_Host=mysql --from-literal=DB_User=root --from-literal=DB_Password=default123
-
 ```
-
-5. Debugged ingress bad gateway error during creation.
-
-6. Verified PV and PVC matching rules (spec, namespace scope, access modes, storage class).
-
