@@ -4,7 +4,7 @@
 ## Ingress Troubleshooting
 
 * **Editing Ingress Hosts**: Learned how to identify and fix issues with the `host` field in Ingress configuration. Ensuring the correct DNS entry matches the Ingress resource to route traffic properly.
-* **Useful when application endpoints are not resolving due to mismatched hostnames in the Ingress manifest.
+* Useful when application endpoints are not resolving due to mismatched hostnames in the Ingress manifest.
 
 ## Vertical Pod Autoscaler (VPA)
 
