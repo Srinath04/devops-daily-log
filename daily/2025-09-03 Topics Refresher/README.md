@@ -1,9 +1,9 @@
-wq
 ## Today's Kubernetes Learnings
 
 1. Pod Run with Node Selection
 
-- Worked with scheduling pods onto specific nodes using nodeSelector. This ensures workloads are placed on nodes that meet business or application requirements.
+- Worked with scheduling pods onto specific nodes using nodeSelector.
+- This ensures workloads are placed on nodes that meet business or application requirements.
 
 - Experimented with labels and taints to fine-tune pod placement strategies, reinforcing the importance of aligning scheduling rules with cluster architecture.
 
