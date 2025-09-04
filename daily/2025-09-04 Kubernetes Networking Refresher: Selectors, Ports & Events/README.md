@@ -1,8 +1,8 @@
-Todwqay’s Learning Update
+Today’s Learning Update
 
 Focus Area: Kubernetes – Networking, Policies, and Service Configuration
 
-## 🔑 Key Learnings
+## Key Learnings
 
 - Network Policies with NamespaceSelector & PodSelector:
 Explored how NamespaceSelector and PodSelector can be used individually or in combination.
@@ -38,6 +38,6 @@ Reinforced understanding of how Kubernetes services route traffic by selecting p
 ### Pod Lifecycle & Restart Policies:
 Reviewed how --restart=Never impacts pod lifecycle, particularly for short-lived or job-style workloads, where retries are not desired.
 
-## 💡 Takeaway
+## Takeaway
 
 Today’s work reinforced my knowledge of fine-grained Kubernetes networking controls. Understanding the nuances of selectors, port naming, and event filtering helps design secure, resilient, and debuggable workloads in real-world production clusters.
