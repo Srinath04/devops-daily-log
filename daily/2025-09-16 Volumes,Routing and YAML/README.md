@@ -7,7 +7,7 @@
 - **Storage concepts:** understanding the difference between `local` and `hostPath` volumes in Kubernetes
  
 ---
-## httpd Header-Based Routing
+## Header-Based Routing
 
 - Learned how nginx can be used for header-based routing.
     
