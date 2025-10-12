@@ -1,5 +1,5 @@
 
-Daily Documentation — October 12, 2025**
+**Daily Documentation — October 12, 2025**
 
 ### **Topic: Cluster Upgrade**
 
@@ -7,7 +7,7 @@ Daily Documentation — October 12, 2025**
     
 - Understood the **control plane node upgrade** process using `kubeadm upgrade plan`, `kubeadm upgrade apply`, and updating `kubelet` and `kubectl`.
     
-- Practiced **worker node upgrade** using `kubectl drain`, `apt/yum update kubeadm/kubelet`, and `kubectl uncordon`.
+- Practiced **worker node upgrade** using `kubectl drain`, `apt update kubeadm/kubelet`, and `kubectl uncordon`.
     
 - Noted the importance of **backing up etcd** before upgrading to avoid data loss.
     
@@ -18,5 +18,5 @@ Daily Documentation — October 12, 2025**
 - Observed behavior of **Pods and system components** during upgrade and how **drain/cordon** ensure workload safety.
     
 
-📘 Today’s session focused on mastering cluster lifecycle management via upgrades — a critical part of the CKA exam._
+📘 _Today’s session focused on mastering cluster lifecycle management via upgrades — a critical part of the CKA exam._
 
