@@ -5,8 +5,11 @@
 
 Before starting, ensure the following:
 1. **gcloud CLI** is installed and configured on your workstation. 
-2. A **VPC**, **subnets**, and **VM instances** for the **Control Plane (Master)** and **Worker Nodes** are created.
+2. My default **project**, **region**, and **zone** are already configured, so they may not appear explicitly in the commands.
+Adjust or include them as needed based on your own infrastructure setup.
+3. A **VPC**, **subnet** and **Three VM instances** one for **Control Plane (Master)** and two for **Worker Nodes** are created next.
 ###### These steps (1–4) can also be performed easily via the **GCP Console (UI)**
+
 ###### 1. Create a VPC  
 `gcloud compute networks create example-k8s --subnet-mode custom`
 
@@ -16,7 +19,7 @@ gcloud compute networks subnets create k8s-nodes \
 --network example-k8s \
 --range 10.240.0.0/24
 ```
-###### 3. Create firewall rules
+###### 3. Create two firewall rules
 internal
 ```
 gcloud compute firewall-rules create example-k8s-allow-internal \
