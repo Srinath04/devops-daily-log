@@ -265,7 +265,7 @@ kubeadm token create --print-join-command
 
 Verify nodes, kube-system pods (apiserver/controller/scheduler/etcd), kube-proxy DaemonSet, CoreDNS, services & endpoints, etcd health, kubelet/runtime status, and open control-plane ports.
 
-	- which should all be fine if everything’s wired up correctly.
+_which should all be fine if everything’s wired up correctly._
 
 Add your favourite **aliases**, **Kubernetes autocompletion**, and other handy tools to your `~/.bashrc`.
 
