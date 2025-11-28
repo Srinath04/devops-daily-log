@@ -1,8 +1,10 @@
 Refresh cli and command skill on text and file processing  
  - grep, sort, strings, uniq
 ---
-Progress Kubernetes CKA scenerios 
+Progress Kubernetes CKA scenerios
+
 ---
-opensouce ecosystem, Public repo and progess explore
+opensouce ecosystem, Public repo and progess explore 
+
 ---
-Docker images and env variables runtime pass test 
+Docker images and env variables runtime pass test
