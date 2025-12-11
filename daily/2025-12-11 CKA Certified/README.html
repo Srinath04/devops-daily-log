@@ -1,0 +1,102 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Daily — 2025-10-11 • Learning Log 🎉</title>
+  <style>
+    html,body{height:100%;margin:0;font-family:system-ui,Segoe UI,Roboto,Arial;background:#071126;color:#e6eef6}
+    .wrap{max-width:900px;margin:48px auto;padding:28px;border-radius:12px}
+    h1{margin:0 0 8px 0}
+    pre.doc{background:rgba(255,255,255,0.03);padding:16px;border-radius:8px;white-space:pre-wrap;font-family:ui-monospace,monospace}
+    .controls{margin-top:12px}
+    button{padding:8px 12px;border-radius:8px;border:none;cursor:pointer}
+    #confetti-canvas{position:fixed;left:0;top:0;pointer-events:none;z-index:9999}
+    a{color:#7dd3fc;text-decoration:none}
+  </style>
+</head>
+<body>
+  <canvas id="confetti-canvas"></canvas>
+
+  <div class="wrap">
+    <header>
+      <h1>Daily Learning — 2025-10-11</h1>
+      <div class="meta">Kubernetes • CKA certification </div>
+
+      <!-- ★★ Replace YOUR_CREDLY_URL with your actual Credly badge link ★★ -->
+      
+      <div style="margin-top:8px;">
+        🔗 <a href="https://www.credly.com/users/srinath-krishnamurthy.06e75052" target="_blank">View my CKA Badge on Credly</a>
+      </div>
+    </header>
+
+    <main>
+      <pre class="doc">
+<main>
+  <article class="doc">
+    <h2>Achievement Summary</h2>
+    <p>Successfully achieved the <strong>Certified Kubernetes Administrator (CKA)</strong> credential today with score of 89.<br>
+    Validation completed through CNCF/Credly; badge published.</p>
+
+    <h2>Exam Experience Reflection</h2>
+    <ul>
+      <li>Comfortable with time management and task prioritization.</li>
+      <li>Attented and reviewed all questions.</li>
+      <li>PSI Bridge verification and checkin was not smooth, faced error and contacted support despite meeting all requirements prior</li>
+      <li>Noticed and reported in exam cluster issue with a node to linux foundation which might be affecting my overall score </li>
+    </ul>
+
+    <h2>Post Certification Actions</h2>
+    <ul>
+      <li>Cross checked learning gaps noted post exam.</li>
+      <li>Updated internal documentation and learning journal for future reference.</li>
+      <li>Added certification link to professional profiles/documentation repositories.</li>
+    </ul>
+
+    <h2>Next Steps</h2>
+    <ul>
+      <li>Begin planning towards KCNA/CKAD/CKS path if aligned to long term career impact.</li>
+      <li>Enhance automation skills using K8s and other platform and cicd tools.</li>
+      <li>Build small real world cluster or mini lab to maintain hands on sharpness.</li>
+    </ul>
+  </article>
+</main>
+
+      </pre>
+
+      <div class="controls">
+        <button id="replay">Replay Celebration</button>
+      </div>
+    </main>
+  </div>
+
+  <!-- canvas-confetti -->
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+  <script>
+    // Prepare canvas
+    const canvas = document.getElementById('confetti-canvas');
+    function resizeCanvas() {
+      canvas.width = window.innerWidth;
+      canvas.height = window.innerHeight;
+    }
+    window.addEventListener('resize', resizeCanvas);
+    resizeCanvas();
+
+    const conf = confetti.create(canvas, { resize: true, useWorker: true });
+
+    // Celebration burst
+    function celebrate() {
+      conf({ particleCount: 70, spread: 120, origin: { x: 0.2, y: 0.3 } });
+      conf({ particleCount: 90, spread: 140, origin: { x: 0.8, y: 0.3 } });
+      conf({ particleCount: 120, spread: 180, origin: { y: 0.6 } });
+    }
+
+    // Always run on page load
+    setTimeout(celebrate, 350);
+
+    // Replay button
+    document.getElementById("replay").onclick = celebrate;
+  </script>
+</body>
+</html>
