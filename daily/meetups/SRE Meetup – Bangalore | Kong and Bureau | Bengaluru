@@ -1,0 +1,9 @@
+SRE Meetup – Bangalore 
+
+Talk 1: Building Multi-Cloud Reliable API Gateway Platforms
+Takeaway: Multi-cloud is an SRE problem first, a platform problem second.
+
+Talk 2: Inside the Biggest Outages – Hidden Failure Patterns Every SRE Should Know
+Takeaway: Outages expose system design flaws, not individual mistakes.
+
+Overall: Reliability is an architectural responsibility, not just an operational one.
