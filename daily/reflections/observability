@@ -1,0 +1,14 @@
+2025-12-26
+Reflection: MRD & DevOps Observability
+
+I had to visit a hospital, there i have started relating the MRD (Medical Records Department) to DevOps observability.
+
+Just like MRD maintains patient history for diagnosis and future reference, observability systems preserve logs, metrics, and traces so teams can understand system health, past incidents, and make informed decisions instead of guessing.
+
+Helps improve
+- Logs + Metrics + Traces
+- Incident History & RCA
+- Change Management
+- Compliance & Audit
+- Knowledge Retention (Process over people) 
+
