@@ -1,0 +1,1 @@
+- Proceed with basics of ci integeration - workflows checks and actions based on yaml code and tweak outcomes
