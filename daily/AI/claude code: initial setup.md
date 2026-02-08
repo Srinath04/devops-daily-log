@@ -1,0 +1,2 @@
+- Today’s work included setting up Claude Code, initial runs, tests and validating it by running simple application in localhost within VM environment.
+- Earnined the Claude Code in Action certificate from Anthropic
