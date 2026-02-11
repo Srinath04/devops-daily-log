@@ -1,0 +1,1 @@
+- Introduction to openapi specification language and general working of api and internals with http and json based data exchange
