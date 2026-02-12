@@ -1,0 +1,1 @@
+- No hands on today, Explored updates on Agentic AI, its capabilities, local configuration options, and cost verification models. 
