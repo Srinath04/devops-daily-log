@@ -1,0 +1,1 @@
+- Revisited Git branching and release management strategies from past work to strengthen DevOps understanding. 
