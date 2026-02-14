@@ -1,0 +1,1 @@
+- No hands on today, Refresh of application lifecycle management concepts. 
