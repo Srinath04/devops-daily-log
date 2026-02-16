@@ -1,0 +1,1 @@
+- No hands on today, Continued to explore the impact on AI and ways to integrating with usual worflows. 
