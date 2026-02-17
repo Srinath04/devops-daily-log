@@ -1,0 +1,1 @@
+- Reviewed Codebeamer ALM admin scope and DevOps platform needs and requirements
