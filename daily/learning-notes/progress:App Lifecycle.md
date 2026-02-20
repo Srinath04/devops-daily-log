@@ -1,1 +1,1 @@
-- No hands on today, Continued to refresh application lifecycle management concepts. 
+- No hands on today, Continued to refresh application lifecycle application - operations pov. 
