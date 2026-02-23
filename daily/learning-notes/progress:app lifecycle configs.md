@@ -1,0 +1,1 @@
+- No hands on today, Continued to refresh application lifecycle management config and basic setup. 
