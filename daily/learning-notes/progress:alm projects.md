@@ -1,1 +1,1 @@
-- No hands on today, Continued to refresh application lifecycle management platforms and project setup. 
+- Continued to refresh application lifecycle management platform - cb infra. 
