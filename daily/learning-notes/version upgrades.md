@@ -1,1 +1,1 @@
-- No hands on today, Refreshed topics on docker and version upgrades 
+- Refreshed on Kubernettes config for enterprise application setup
