@@ -1,1 +1,1 @@
-- Working on setting up local sso lab 
+- No Hands on today, referred past documentation and notes 
