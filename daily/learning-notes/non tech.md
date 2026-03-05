@@ -1,0 +1,1 @@
+- No Hands on today, realignment of work portfolio and review
