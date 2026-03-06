@@ -1,1 +1,1 @@
-- No Hands on today, referred past documentation and notes 
+- Progress on local config sso with keycloak setup fix
