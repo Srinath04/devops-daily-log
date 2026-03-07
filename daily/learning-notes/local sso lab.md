@@ -1,0 +1,1 @@
+- Set up local Keycloak SSO lab, generated JWT tokens and studied OAuth2/OIDC flow and RS256 signature verification.
