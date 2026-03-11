@@ -1,0 +1,1 @@
+- How application integeration happens at basic level, read on specification like oslc and plugin ecosystem 
