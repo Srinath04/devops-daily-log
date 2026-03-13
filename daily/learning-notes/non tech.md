@@ -1,1 +1,1 @@
-- No Hands on today, realignment of work portfolio and review
+- No Hands on today, refresh of work and review
