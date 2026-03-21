@@ -1,0 +1,1 @@
+- Continue refresh on basics of requirements management.
