@@ -1,0 +1,1 @@
+- Continue with functional and non functional requirement types.
