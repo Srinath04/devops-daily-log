@@ -1,1 +1,1 @@
-- Continue with functional and non functional requirement types.
+- Continue with system and software requirement types.
