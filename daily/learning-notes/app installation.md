@@ -1,0 +1,1 @@
+- Continue debugging with installation error and compute capacity.
