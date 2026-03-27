@@ -1,0 +1,1 @@
+- Learn basics of AI ML DL process, data types and its managed services in AWS.
