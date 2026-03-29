@@ -1,1 +1,1 @@
-- No Hands on today, refresh on managed ai services in aws and review
+- No Hands on today, cost overview on managed ai services in aws.
