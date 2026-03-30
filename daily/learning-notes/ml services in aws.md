@@ -1,0 +1,1 @@
+- Continue with cost overview on managed ai services in aws.
