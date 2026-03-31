@@ -1,0 +1,1 @@
+- Continue with requirement management common terminologies used and examples of good requirements.
