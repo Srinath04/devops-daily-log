@@ -1,1 +1,1 @@
-- Continue with requirement management common terminologies used and examples of good requirements.
+- Continue with requirement management ambigious nature and examples of good requirements.
