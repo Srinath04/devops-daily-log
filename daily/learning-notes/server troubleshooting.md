@@ -1,0 +1,1 @@
+- Continue with basics of server troubleshooting on purpose, usage and application. 
