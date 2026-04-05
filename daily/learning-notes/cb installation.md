@@ -1,1 +1,1 @@
-- Progress wth intalled codebeamer application and database setup.
+- Self-hosted codebeamer on AWS using Terraform + Docker + PostgreSQL + Project 
