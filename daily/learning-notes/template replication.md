@@ -1,0 +1,1 @@
+- Continue fine tuning app data for project template reuse and importing.
