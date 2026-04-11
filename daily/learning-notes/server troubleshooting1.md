@@ -1,0 +1,1 @@
+- Continue with basics of server troubleshooting on diagnosing purpose and usage and hardware resource saturation. 
