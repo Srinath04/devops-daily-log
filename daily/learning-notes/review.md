@@ -1,0 +1,1 @@
+- No Hands on today, refresh of on going tasks, progress and review.
