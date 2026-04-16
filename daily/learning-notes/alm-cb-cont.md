@@ -1,1 +1,1 @@
-- Refresh on ALM topics wrt codebeamer.
+- Refresh on codebeamer.
