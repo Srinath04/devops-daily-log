@@ -1,0 +1,1 @@
+- No Hands on today, align documentation and fix issies with installed plugins for format alignment.
