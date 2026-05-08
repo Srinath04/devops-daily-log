@@ -1,1 +1,1 @@
-- Continue with basics of server troubleshooting on cpu usage, cpu time and memory. 
+- Continue with troubleshooting on diagnosing mariadb restart issue. 
