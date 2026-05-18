@@ -1,0 +1,1 @@
+- Continue application lifecycle management platforms and project setup. 
