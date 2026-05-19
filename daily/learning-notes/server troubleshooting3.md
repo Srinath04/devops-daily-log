@@ -1,1 +1,1 @@
-- Continue with basics of server troubleshooting on process and disk usage stats. 
+- Continue with troubleshooting on local k8s setup. 
