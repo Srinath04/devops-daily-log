@@ -1,0 +1,1 @@
+- Continue with basics of resource troubleshooting. 
