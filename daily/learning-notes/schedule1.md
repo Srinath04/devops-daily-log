@@ -1,0 +1,1 @@
+- No Hands on today, schedule cb implementation topic
