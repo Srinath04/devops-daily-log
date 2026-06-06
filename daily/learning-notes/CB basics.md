@@ -1,1 +1,1 @@
-- Examine on key terminologies of codebeamer  
+- Examine on core component and architecture 
