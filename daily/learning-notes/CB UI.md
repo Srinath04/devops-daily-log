@@ -1,0 +1,1 @@
+- Examine on key terminologies and ui of codebeamer.   
