@@ -1,0 +1,1 @@
+- Continue on requirement trackers settings and fields of codebeamer.   
