@@ -1,1 +1,1 @@
-- Continue on requirement trackers and import.   
+- Continue on test configuration trackers of codebeamer.   
