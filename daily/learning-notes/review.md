@@ -1,1 +1,1 @@
-- No Hands on today, refresh of on tasks, budget, progress and review.
+- No Hands on today, review next steps. 
