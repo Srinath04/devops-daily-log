@@ -1,0 +1,1 @@
+- Continue with tracker permissions of codebeamer.   
