@@ -1,1 +1,1 @@
-- Continue with debugging license configuration issue and fix.   
+- Continue to troubleshoot license configuration issue.   
