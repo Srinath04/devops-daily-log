@@ -1,1 +1,1 @@
-- No Hands on today, review next steps. 
+- No Hands on today, plan next steps. 
