@@ -1,1 +1,1 @@
-- No Hands on today, realign priorities. 
+- No Hands on today, realign docs. 
