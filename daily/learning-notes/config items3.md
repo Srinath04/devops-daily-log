@@ -1,0 +1,1 @@
+- Continue with manage review and its settings.   
