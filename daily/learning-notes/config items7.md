@@ -1,0 +1,1 @@
+- Continue with configuring codebeamer report from project data.   
