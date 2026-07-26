@@ -1,1 +1,1 @@
-- No Hands on today, schedule ptc overciew 
+- No Hands on today, time schedule aligned 
