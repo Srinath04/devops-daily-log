@@ -1,1 +1,1 @@
-- Continue with reviewing docs. 
+- No Hands on today, review docs. 
