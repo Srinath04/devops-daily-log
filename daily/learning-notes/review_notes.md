@@ -1,0 +1,1 @@
+- Progress with hands on based on written notes on work\config items. 
