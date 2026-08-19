@@ -1,1 +1,1 @@
-- Progress with hands on based on work and config items. 
+- Continue with hands on based on work and config items. 
