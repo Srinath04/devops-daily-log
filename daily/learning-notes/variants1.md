@@ -1,0 +1,1 @@
+- Continue with work and config items variants. 
