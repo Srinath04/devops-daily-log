@@ -1,0 +1,1 @@
+- Continue with item and its variant management. 
