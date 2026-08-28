@@ -1,0 +1,1 @@
+- No Hands on today, progress with notes and docs. 
