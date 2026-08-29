@@ -1,1 +1,1 @@
-- No Hands on today, align documentation and notes 
+- No Hands on today, progress with notes concepts and docs. 
