@@ -1,0 +1,1 @@
+- No Hands on today, review and align personal library notes and docs. 
