@@ -1,0 +1,1 @@
+- Continue with product lifecycle key concepts and categories. 
