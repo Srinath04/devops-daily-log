@@ -1,0 +1,1 @@
+- Review infra capacities and dependencies for application installation.
