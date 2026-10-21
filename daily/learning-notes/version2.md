@@ -1,0 +1,1 @@
+- Review on codebeamer release version and distinct features 
