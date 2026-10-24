@@ -1,0 +1,1 @@
+- Review on codebeamer release version features and compatibality. 
