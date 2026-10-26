@@ -1,0 +1,1 @@
+- Verify codebeamer release version compatibality and support. 
