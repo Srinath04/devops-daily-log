@@ -1,1 +1,1 @@
-- Refresh on database installation and integeration with web setup in enterprise mode 
+- Evaluation of version and installation of database and initial readiness.
