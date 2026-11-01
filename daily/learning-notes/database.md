@@ -1,1 +1,1 @@
-- Evaluation of version and installation of database and initial readiness.
+- Continue installation of database and app readiness.
