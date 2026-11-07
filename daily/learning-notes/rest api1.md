@@ -1,0 +1,1 @@
+- Continue with openapi specification and working of internals with http and xml based data exchange.
